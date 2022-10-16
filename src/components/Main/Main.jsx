@@ -4,10 +4,12 @@ import data from "../../Helper/data";
 
 const Main = () => {
   return (
-    <>
-    {data.map((item)=> <Card {...item} />
+    <div className="container">
+      {data.map((item)=> <Card {...item} />
     )}
-    </>
+    </div>
+    
+    
   )
 }
 

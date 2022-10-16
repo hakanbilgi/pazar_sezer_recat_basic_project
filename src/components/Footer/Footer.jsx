@@ -2,7 +2,9 @@ import "./Footer.css"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className="footer">
+      Copyright by Hakan Bilgi
+    </div>
   )
 }
 

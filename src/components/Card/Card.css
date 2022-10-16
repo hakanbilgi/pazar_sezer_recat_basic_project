@@ -1,0 +1,30 @@
+.cardimg{
+    width: 250px;
+    margin: 30px;
+    box-shadow: 7px 7px 8px gray, -7px -7px 8px gray;
+    border-radius: 10px;
+}
+.name{
+    color: red;
+   
+
+}
+.desc{
+    margin: 10px;
+}
+.button{
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    background-color: blueviolet;
+    font-size: 18px;
+    color: white;
+    margin: 20px;
+    box-shadow: 7px 7px 8px gray;
+    cursor: pointer;
+
+    
+}
+.button:hover{
+    transform: scale(1.1);
+}
