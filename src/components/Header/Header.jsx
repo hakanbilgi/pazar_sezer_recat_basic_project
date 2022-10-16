@@ -1,9 +1,11 @@
-import "./Header.css"
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <div className="header">
+      <h1 className="header-h1">Software Development</h1>
+    </div>
+  );
+};
 
-export default Header
+export default Header;

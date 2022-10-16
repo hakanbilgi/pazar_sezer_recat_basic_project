@@ -1,11 +1,13 @@
 import Card from '../Card/Card'
 import "./Main.css"
+import data from "../../Helper/data";
 
 const Main = () => {
   return (
-    <div>
-    <Card/>
-    </div>
+    <>
+    {data.map((item)=> <Card {...item} />
+    )}
+    </>
   )
 }
 

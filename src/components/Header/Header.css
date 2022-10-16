@@ -1,0 +1,13 @@
+.header{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(230, 211, 118, 0.854);
+    box-shadow:7px 7px 15px gray;
+    padding: 10px;
+
+
+}
+.header-h1{
+    color: red;
+
+}
